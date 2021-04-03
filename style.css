@@ -1,0 +1,74 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b032d;
+}
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #621940;
+}
+h1
+{
+    color: #f67e7d;
+}
+ul
+{
+    color: #ffb997;
+}
+p
+{
+    color: #f67e7d;
+    font-size: large;
+}
+
+h1
+{
+    margin: 30px;
+}
+
+.header a
+{
+    margin: 30px;
+}
+
+.item
+{
+    position: relative;
+}
+
+.item p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-400%);
+    opacity: 0;
+}
+
+.item ul
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover img
+{
+    opacity: 0.33;
+}
+
+.item:hover ul
+{
+    opacity: 1;
+}
+
+.item:hover p
+{
+    opacity: 1;
+}
